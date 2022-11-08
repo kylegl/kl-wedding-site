@@ -4,7 +4,7 @@ const emit = defineEmits(['click'])
 </script>
 
 <template>
-  <Btn btn btn-hover bg-gray-900 t-inv h5 tracking-widest class="group" active="translate-y-0.5 transition-transform"
+  <Btn btn btn-hover bg-d1 t-inv h5 tracking-widest class="group" active="translate-y-0.5 transition-transform"
     :tooltip="tooltip" :duration="duration" @click="emit('click')">
     <template #content>
       <div flex items-center gap1>

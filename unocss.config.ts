@@ -14,8 +14,13 @@ export default defineConfig({
     {
       'btn': 'px3 py4 rounded-md inline-block cursor-pointer disabled:cursor-not-allowed disabled:opacity-50',
       'btn-hover': 'hover:translate-y--.5 in-out',
-      't-inv': 'text-bgA',
+      'flex-center': 'items-center justify-center',
+      'in-out': 'transition duration-200 ease-in-out',
+      't-inv': 'text-l1',
+      't-norm': 'text-zinc-900',
     },
+    [/^(.*)-l(\d)$/, ([, m, c]) => `${m}-light${c}`],
+    [/^(.*)-d(\d)$/, ([, m, c]) => `${m}-dark${c}`],
   ],
   presets: [
     presetUno(),
@@ -34,14 +39,23 @@ export default defineConfig({
     }),
   ],
   theme: {
+    breakpoints: {
+      xs: '375px',
+      sm: '640px',
+      md: '768px',
+      mdLg: '900px',
+      lg: '1024px',
+      xl: '1280px',
+    },
     colors: {
-      bgA: '#FDFDFD',
-      bgB: '#dfe0e1',
+      light1: '#FDFDFD',
+      light2: '#dfe0e1',
+      dark1: 'zinc-900',
     },
   },
   transformers: [
     transformerDirectives(),
     transformerVariantGroup(),
   ],
-  safelist: 'prose prose-sm m-auto text-left'.split(' '),
+  safelist: 'bg-d1 bg-l1'.split(' '),
 })
