@@ -4,6 +4,6 @@
 
 <template>
   <div>
-    <h1 text-4xl>Lorraine & Kyle</h1>
+    RVSP
   </div>
 </template>

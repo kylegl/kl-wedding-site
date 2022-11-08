@@ -42,6 +42,7 @@ specifiers:
   vue-demi: ^0.13.11
   vue-i18n: ^9.2.2
   vue-router: ^4.1.6
+  vue-tippy: 6.0.0-alpha.65
   vue-tsc: ^1.0.9
 
 dependencies:
@@ -88,6 +89,7 @@ devDependencies:
   vite-ssg: 0.21.2_5ousq2ai54iq5ks4u2qdqo7jjq
   vite-ssg-sitemap: 0.4.3
   vitest: 0.24.4
+  vue-tippy: 6.0.0-alpha.65_vue@3.2.41
   vue-tsc: 1.0.9_typescript@4.8.4
 
 packages:
@@ -1731,6 +1733,10 @@ packages:
 
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
+    dev: true
+
+  /@popperjs/core/2.11.6:
+    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
     dev: true
 
   /@rollup/plugin-babel/5.3.1_cwbsg774jzhqoll5t2xfwyzz54:
@@ -7572,6 +7578,12 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: true
 
+  /tippy.js/6.3.7:
+    resolution: {integrity: sha512-E1d3oP2emgJ9dRQZdf3Kkn0qJgI6ZLpyS5z6ZkY1DF3kaQaBsGZsndEpHwx+eC+tYM41HaSNvNtLx8tU57FzTQ==}
+    dependencies:
+      '@popperjs/core': 2.11.6
+    dev: true
+
   /tmp/0.2.1:
     resolution: {integrity: sha512-76SUhtfqR2Ijn+xllcI5P1oyannHNHByD80W1q447gU3mp9G9PSpGdWmjUOHRDPiHYacIk66W7ubDTuPF3BEtQ==}
     engines: {node: '>=8.17.0'}
@@ -8288,6 +8300,15 @@ packages:
     dependencies:
       de-indent: 1.0.2
       he: 1.2.0
+    dev: true
+
+  /vue-tippy/6.0.0-alpha.65_vue@3.2.41:
+    resolution: {integrity: sha512-AmPNcyrOillysYFDbpgBkdv0UDziAg4mubD1LiyiNgcmLux0Gb2dXvkDDiLoPpbu9CxFzAMAQZOdOTEaOJDb0Q==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      tippy.js: 6.3.7
+      vue: 3.2.41
     dev: true
 
   /vue-tsc/1.0.9_typescript@4.8.4:
