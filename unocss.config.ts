@@ -35,7 +35,8 @@ export default defineConfig({
   ],
   theme: {
     colors: {
-      bgA: '#dfe0e1',
+      bgA: '#FDFDFD',
+      bgB: '#dfe0e1',
     },
   },
   transformers: [
