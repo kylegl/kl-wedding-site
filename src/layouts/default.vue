@@ -1,6 +1,6 @@
 <template>
   <main
-    text-center text-gray-900 dark:text-gray-200 bg-bgB
+    text-center t-norm dark:t-inv bg-l2
     flex="~ col" min-h-screen
   >
     <Nav sticky top-0 w-full/>

@@ -1,9 +1,12 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <div>
-    <h1 text-4xl>Lorraine & Kyle</h1>
+    <HomeHero />
+
+    <HomeBody />
   </div>
 </template>
+
+<route lang="yaml">
+meta:
+  layout: home
+</route>
