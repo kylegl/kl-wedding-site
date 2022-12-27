@@ -8,7 +8,6 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Btn: typeof import('./components/common/buttons/Btn.vue')['default']
-    Counter: typeof import('./components/Counter.vue')['default']
     Footer: typeof import('./components/common/Footer.vue')['default']
     HomeBody: typeof import('./components/home/HomeBody.vue')['default']
     HomeHero: typeof import('./components/home/HomeHero.vue')['default']
@@ -16,7 +15,6 @@ declare module '@vue/runtime-core' {
     Nav: typeof import('./components/common/nav/Nav.vue')['default']
     NavRoute: typeof import('./components/common/nav/NavRoute.vue')['default']
     PrimaryBtn: typeof import('./components/common/buttons/PrimaryBtn.vue')['default']
-    README: typeof import('./components/README.md')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     RSVPBtn: typeof import('./components/common/buttons/RSVPBtn.vue')['default']

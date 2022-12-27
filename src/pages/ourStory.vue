@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<div>
-  Our Story
-</div>
+  <div>
+    Our Story
+  </div>
 </template>
