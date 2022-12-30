@@ -12,7 +12,6 @@ const rsvpDarkMode = $computed(() => y.value > 100)
       <NavRoute to="/">
         <Icon i-carbon-home />
       </NavRoute>
-      <NavRoute to="/ourStory" title="Our Story" />
       <NavRoute to="/travelStay" title="Travel & Stay" />
       <NavRoute to="/registry" title="Registry" />
     </div>
