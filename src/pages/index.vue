@@ -1,8 +1,12 @@
-<template>
-  <div>
-    <HomeHero />
+<script setup lang="ts">
 
-    <HomeBody />
+</script>
+
+<template>
+  <div flex="~ col" gap24 w-full max-w-screen>
+    <JoinUs />
+
+    <EventInfo />
   </div>
 </template>
 

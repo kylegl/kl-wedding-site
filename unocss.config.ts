@@ -51,6 +51,9 @@ export default defineConfig({
       light1: '#FDFDFD',
       light2: '#dfe0e1',
       dark1: 'zinc-900',
+      sandLight: '#F3ECE7',
+      sand: '#DECABA',
+      sandDark: '#D8B5A6',
     },
   },
   transformers: [

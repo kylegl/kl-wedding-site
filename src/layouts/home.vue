@@ -3,11 +3,13 @@
 
 <template>
   <main
-    flex="~ col" min-h-screen
-    text-center t-norm dark:t-inv bg-l2
+    flex="~ col" h-full min-h-screen
+    text-center t-norm dark:t-inv
     relative
   >
-  <RouterView ref="el" grow  />
+    <Nav sticky top-0 bg-sandDark/>
+    <HomeHero />
+    <RouterView ref="el" grow />
     <Footer justify-self-end />
   </main>
 </template>

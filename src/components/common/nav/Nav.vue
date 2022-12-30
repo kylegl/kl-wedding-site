@@ -1,11 +1,17 @@
 <script setup lang="ts">
-const { rsvpDarkMode } = defineProps<{ rsvpDarkMode?: boolean }>()
+const { y } = useWindowScroll()
+const rsvpDarkMode = $computed(() => y.value > 100)
 </script>
 
 <template>
-  <nav flex="~ center" gap4 px8 py8 text-xl font-medium>
+  <nav
+    flex="~ center" gap4 p8 w-full
+    text-xl font-medium in-out
+  >
     <div flex="~ 1" gap1>
-      <NavRoute to="/"><Icon i-carbon-home/></NavRoute>
+      <NavRoute to="/">
+        <Icon i-carbon-home />
+      </NavRoute>
       <NavRoute to="/ourStory" title="Our Story" />
       <NavRoute to="/travelStay" title="Travel & Stay" />
       <NavRoute to="/registry" title="Registry" />
