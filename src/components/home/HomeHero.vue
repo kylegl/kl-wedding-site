@@ -8,10 +8,10 @@ import homePageImage from '~/assets/images/homePageImage.webp'
       <img :src="homePageImage" object-cover>
       <div
         absolute top-0 left="50%" translate-x="-50%"
-        flex="~ col" h-full w-full items-center gap2 pt
+        flex="~ col" h-full w-full items-center gap2 py
         t-inv text-shadow-lg
-        md="pt8 gap4"
-        lg="pt12"
+        md="py8 gap4"
+        lg="py12"
       >
         <div text-xl lg="text-2xl" h="1/3" sm="h-auto">
           We're getting married!
@@ -26,9 +26,7 @@ import homePageImage from '~/assets/images/homePageImage.webp'
           <div text-xl lg="text-3xl" font-serif>
             {{ the_date }}
           </div>
-          <div m-auto>
-            countdown
-          </div>
+          <Countdown h-full />
         </div>
       </div>
     </div>

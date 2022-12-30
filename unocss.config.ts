@@ -33,6 +33,13 @@ export default defineConfig({
     presetWebFonts({
       fonts: {
         sans: 'Cormorant Garamond:300,500,700,900',
+        fancy: 'Miss Fajardose',
+        purplePurse: 'Purple Purse',
+        alegreya: {
+          name: 'Alegreya SC',
+          weights: ['500'],
+          italic: true,
+        },
         serif: 'PT Serif',
         mono: 'DM Mono',
       },

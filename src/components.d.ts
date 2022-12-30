@@ -8,6 +8,7 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Btn: typeof import('./components/common/buttons/Btn.vue')['default']
+    Countdown: typeof import('./components/home/Countdown.vue')['default']
     EventInfo: typeof import('./components/home/EventInfo.vue')['default']
     Footer: typeof import('./components/common/Footer.vue')['default']
     HomeBody: typeof import('./components/home/EventInfo.vue')['default']
