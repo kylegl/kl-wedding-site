@@ -8,7 +8,6 @@
     relative
   >
     <Nav sticky top-0 bg-sandDark z-1/>
-    <HomeHero />
     <RouterView ref="el" grow />
     <Footer justify-self-end />
   </main>

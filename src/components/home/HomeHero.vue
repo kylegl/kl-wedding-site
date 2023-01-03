@@ -26,6 +26,7 @@ import homePageImage from '~/assets/images/homePageImage.webp'
           <div text-xl lg="text-3xl" font-serif>
             {{ the_date }}
           </div>
+
           <Countdown h-full />
         </div>
       </div>

@@ -4,6 +4,7 @@
 
 <template>
   <div flex="~ col" gap24 w-full max-w-screen>
+    <HomeHero />
     <JoinUs />
 
     <EventInfo />
