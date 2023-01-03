@@ -1,10 +1,14 @@
+<script setup lang="ts">
+import ceremony from '~/assets/images/dreams-natura-wedding.webp'
+// import reception from '~/assets/images/'
+// TODO get image for reception location
+</script>
+
 <template>
-  <div flex="~ col" gap16 p24 justify-center t-norm bg-sand>
-    <div flex gap16 justify-center>
-      <div flex="~ col" w="1/2" h-120 p16 bg-red>
-        IMG
-      </div>
-      <div w="1/2" flex="~ col" gap8 items-center justify-center bg-green>
+  <Section bg-sand rounded-md title="Day of Info">
+    <EventSection :wrap-reverse="true">
+      <ImageCard :src="ceremony" />
+      <InfoCard>
         <h2 text-6xl>
           Ceremony
         </h2>
@@ -12,10 +16,10 @@
         <div>
           <span text-3xl>Infinity Pool</span>
         </div>
-      </div>
-    </div>
-    <div flex gap16 justify-center>
-      <div w="1/2" flex="~ col" gap8 items-center justify-center bg-green>
+      </InfoCard>
+    </EventSection>
+    <EventSection>
+      <InfoCard>
         <h2 text-6xl>
           Reception
         </h2>
@@ -23,10 +27,8 @@
         <div>
           <span text-3xl>'insert location here'</span>
         </div>
-      </div>
-      <div flex="~ col" w="1/2" p16 h-120 bg-red>
-        IMG
-      </div>
-    </div>
-  </div>
+      </InfoCard>
+      <ImageCard />
+    </EventSection>
+  </Section>
 </template>
