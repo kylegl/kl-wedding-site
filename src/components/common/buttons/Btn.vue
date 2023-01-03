@@ -23,7 +23,7 @@ function handleClick() {
 </script>
 
 <template>
-  <button v-tippy="tippy" flex gap2 items-center justify-center :class="{ disabled: isPending }"
+  <button v-tippy="tippy" flex="~ center" gap2 whitespace-nowrap :class="{ disabled: isPending }"
     @click.stop="handleClick">
     <slot name="content" :is-clicked="isClicked" />
   </button>
