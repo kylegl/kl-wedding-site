@@ -1,8 +1,3 @@
-<script setup lang="ts">
-const { y } = useWindowScroll()
-const rsvpDarkMode = $computed(() => y.value > 100)
-</script>
-
 <template>
   <nav
     flex="~ center" gap4 p8 w-full
@@ -21,7 +16,7 @@ const rsvpDarkMode = $computed(() => y.value > 100)
     </div>
 
     <div flex="~ 1" justify-end>
-      <RSVPBtn :dark-mode="rsvpDarkMode" />
+      <RSVPBtn />
     </div>
   </nav>
 </template>

@@ -15,6 +15,7 @@ export default defineConfig({
       'btn': 'px3 py4 rounded-md inline-block cursor-pointer disabled:cursor-not-allowed disabled:opacity-50',
       'btn-hover': 'hover:translate-y--.5 in-out',
       'flex-center': 'items-center justify-center',
+      'icon-airplane': 'i-majesticons:airplane-line',
       'in-out': 'transition duration-200 ease-in-out',
       't-inv': 'text-l1',
       't-norm': 'text-zinc-900',

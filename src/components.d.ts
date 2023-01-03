@@ -10,9 +10,12 @@ declare module '@vue/runtime-core' {
     Btn: typeof import('./components/common/buttons/Btn.vue')['default']
     Countdown: typeof import('./components/home/Countdown.vue')['default']
     EventInfo: typeof import('./components/home/EventInfo.vue')['default']
+    EventSection: typeof import('./components/home/EventSection.vue')['default']
     Footer: typeof import('./components/common/Footer.vue')['default']
     HomeHero: typeof import('./components/home/HomeHero.vue')['default']
     Icon: typeof import('./components/common/Icon.vue')['default']
+    ImageCard: typeof import('./components/home/ImageCard.vue')['default']
+    InfoCard: typeof import('./components/home/InfoCard.vue')['default']
     JoinUs: typeof import('./components/home/JoinUs.vue')['default']
     Nav: typeof import('./components/common/nav/Nav.vue')['default']
     NavRoute: typeof import('./components/common/nav/NavRoute.vue')['default']
@@ -20,5 +23,7 @@ declare module '@vue/runtime-core' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     RSVPBtn: typeof import('./components/common/buttons/RSVPBtn.vue')['default']
+    Section: typeof import('./components/home/Section.vue')['default']
+    TravelBtn: typeof import('./components/common/buttons/TravelBtn.vue')['default']
   }
 }
