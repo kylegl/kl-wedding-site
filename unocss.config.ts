@@ -8,6 +8,7 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
+import { presetExtra } from 'unocss-preset-extra'
 
 export default defineConfig({
   shortcuts: [
@@ -16,6 +17,9 @@ export default defineConfig({
       'btn-hover': 'hover:translate-y--.5 in-out',
       'flex-center': 'items-center justify-center',
       'icon-airplane': 'i-majesticons:airplane-line',
+      'icon-home': 'i-carbon-home text-2xl',
+      'icon-menu': 'i-carbon:menu text-xl',
+      'icon-x': 'i-carbon:close text-xl',
       'in-out': 'transition duration-200 ease-in-out',
       't-inv': 'text-l1',
       't-norm': 'text-zinc-900',
@@ -26,6 +30,7 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
+    presetExtra(),
     presetIcons({
       scale: 1.2,
       warn: true,

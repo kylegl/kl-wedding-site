@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <nav flex justify-evenly p8 text-xl>
+  <nav flex justify-evenly p8 text-xl bg-sandy>
     <div>Questions</div>
     <div>links</div>
     <div>Email Us</div>

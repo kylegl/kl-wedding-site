@@ -1,9 +1,8 @@
 <script setup lang="ts">
-
 </script>
 
 <template>
   <div>
-    Our Story
+    <h2>Wedding Day</h2>
   </div>
 </template>
