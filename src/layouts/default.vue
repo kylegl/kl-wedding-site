@@ -1,10 +1,14 @@
+<script setup lang="ts">
+</script>
+
 <template>
   <main
-    text-center t-norm dark:t-inv bg-l2
-    flex="~ col" min-h-screen
+    flex="~ col" h-full min-h-screen
+    text-center t-norm dark:t-inv
+    relative
   >
-    <Nav sticky top-0 w-full/>
-    <RouterView bg-bg-a px-8 grow/>
+    <Nav sticky top-0 bg-sandDark z-1/>
+    <RouterView ref="el" grow />
     <Footer justify-self-end />
   </main>
 </template>
