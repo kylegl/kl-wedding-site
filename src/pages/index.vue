@@ -3,11 +3,11 @@
 </script>
 
 <template>
-  <div flex="~ col" gap16 w-full max-w-screen>
+  <div flex="~ col" w-full max-w-screen>
     <HomeHero />
-    <JoinUs />
+    <!-- <JoinUs /> -->
 
-    <EventInfo />
+    <!-- <EventInfo /> -->
   </div>
 </template>
 

@@ -6,8 +6,8 @@ const daysUntilWedding = $computed(() => weddingDay.diff(now, 'days') + 1)
 </script>
 
 <template>
-  <div flex="~ col" gap2 justify-end>
-    <div font-purplePurse text-xl>
+  <div flex="~ col" gap2 justify-end sm="py4">
+    <div font-purplePurse text-xl sm="text-2xl">
       {{ daysUntilWedding }}
     </div>
     <div text-5xl font-fancy>days until</div>
