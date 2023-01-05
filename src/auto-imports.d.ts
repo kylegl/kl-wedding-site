@@ -36,6 +36,7 @@ declare global {
   const getCurrentInstance: typeof import('vue')['getCurrentInstance']
   const getCurrentScope: typeof import('vue')['getCurrentScope']
   const getTippyConfig: typeof import('./composables/utils')['getTippyConfig']
+  const googleFlightsUrl: typeof import('./composables/contants')['googleFlightsUrl']
   const h: typeof import('vue')['h']
   const ignorableWatch: typeof import('@vueuse/core')['ignorableWatch']
   const inject: typeof import('vue')['inject']
@@ -318,6 +319,7 @@ declare module 'vue' {
     readonly getCurrentInstance: UnwrapRef<typeof import('vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
     readonly getTippyConfig: UnwrapRef<typeof import('./composables/utils')['getTippyConfig']>
+    readonly googleFlightsUrl: UnwrapRef<typeof import('./composables/contants')['googleFlightsUrl']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
     readonly ignorableWatch: UnwrapRef<typeof import('@vueuse/core')['ignorableWatch']>
     readonly inject: UnwrapRef<typeof import('vue')['inject']>

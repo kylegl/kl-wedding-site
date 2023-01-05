@@ -11,8 +11,8 @@
 
       <div hidden sm="flex flex-1 gap2">
         <NavRoute to="/travelStay" title="Travel & Stay" />
-        <NavRoute to="/registry" title="Registry" />
         <NavRoute to="/Events" title="Events" />
+        <NavRoute to="/registry" title="Registry" />
       </div>
     </div>
 
